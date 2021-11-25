@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&family=Ubuntu&display=swap');
+/*"Ubuntu"*/
+
+* {
+    margin: 0;
+    font-family: 'Ubtuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(150deg, rgb(177, 145, 170),rgb(124, 86, 124));
+    background-color: rgb(124, 86, 124);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1, label {
+    color: #222222; 
+}
+
+label {
+    display: block;
+}
+
+.heading {
+    margin: 4em auto;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+.password {
+    width: 200px;
+    height: 24px;
+    margin: 10px 0 7px 0;
+    font-size: 1.5em;
+}
+
+.password:hover {
+    outline: 2px solid #000;
+}
+
+button {
+    font-size: 16px;
+    padding: 0.5em 1.5em;
+    font-weight: 700;
+    border-radius: 1em;
+    color: rgb(250, 250, 250);
+    background-color: rgb(107, 73, 107);
+    outline: 1px solid #000;
+    margin: 0.25em;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.error {
+    outline: 3px solid rgb(184, 22, 22);
+    background-color:rgb(250, 120, 120);
+}
+
+.success {
+    outline: 3px solid rgb(0, 139, 30);
+    background-color:rgb(119, 253, 152);
+}
+
+.check {
+    color: #33cc33;
+    margin: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.problem {
+    color: #dd0000;
+    font-size: 2em;
+    margin: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.errorMessage {
+    color:#501515;
+    margin-bottom: 3px;
+}
