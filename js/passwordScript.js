@@ -81,7 +81,7 @@ function createPassword(passwordObject) {
                                 <i class='material-icons removePasswordIcon'>delete_forever</i>
                             </button>
                         </div>`;
-    elem.children[1].children[0].children[0].addEventListener("click", (event) => {
+    elem.children[1].children[0].addEventListener("click", (event) => {
         event.target.closest(".password-item").remove();
     });
     document.querySelector(".password-container").append(elem);
